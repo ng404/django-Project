@@ -1,0 +1,1278 @@
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Internal Server Error: /admin/restApi/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1704, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1390, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\actions.py", line 28, in delete_selected
+    deletable_objects, model_count, perms_needed, protected = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1826, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 151, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 211, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 197, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 126, in format_callback
+    no_edit_link = '%s: %s' % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/restApi/templates/ HTTP/1.1" 500 136092
+Internal Server Error: /admin/restApi/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1704, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1390, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\actions.py", line 28, in delete_selected
+    deletable_objects, model_count, perms_needed, protected = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1826, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 151, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 211, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 197, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 126, in format_callback
+    no_edit_link = '%s: %s' % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/restApi/templates/ HTTP/1.1" 500 136092
+Internal Server Error: /admin/restApi/templates/8/change/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 986, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 697, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaultfilters.py", line 42, in _dec
+    args[0] = str(args[0])
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/restApi/templates/8/change/ HTTP/1.1" 500 198270
+Internal Server Error: /admin/restApi/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1704, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1390, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\actions.py", line 28, in delete_selected
+    deletable_objects, model_count, perms_needed, protected = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1826, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 151, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 211, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 197, in _nested
+    ret = [format_callback(obj)]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\utils.py", line 126, in format_callback
+    no_edit_link = '%s: %s' % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type NoneType)
+"POST /admin/restApi/templates/ HTTP/1.1" 500 136009
+Internal Server Error: /te/customer/9857/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 49, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 1945, in to_representation
+    return self.model_field.value_to_string(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 326, in value_to_string
+    post_dict = self._obj_thru_fields('value_to_string', container_obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 164, in _obj_thru_fields
+    processed_value[field.attname] = getattr(field, func_name)(obj, *other_args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\postgres\fields\array.py", line 127, in value_to_string
+    for val in vals:
+TypeError: 'NoneType' object is not iterable
+"GET /te/customer/9857/templates/ HTTP/1.1" 500 142081
+Internal Server Error: /admin/restApi/templates/11/change/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 992, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 971, in render_value_in_context
+    value = str(value)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 562, in __str__
+    model_form = self.field.model_form_class(instance=instance, **self.field.model_form_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 293, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 84, in model_to_dict
+    opts = instance._meta
+AttributeError: 'list' object has no attribute '_meta'
+"GET /admin/restApi/templates/11/change/ HTTP/1.1" 500 413552
+Internal Server Error: /te/customer/9857/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 51, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 1945, in to_representation
+    return self.model_field.value_to_string(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 326, in value_to_string
+    post_dict = self._obj_thru_fields('value_to_string', container_obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 164, in _obj_thru_fields
+    processed_value[field.attname] = getattr(field, func_name)(obj, *other_args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\postgres\fields\array.py", line 127, in value_to_string
+    for val in vals:
+TypeError: 'NoneType' object is not iterable
+"GET /te/customer/9857/templates/ HTTP/1.1" 500 142456
+Internal Server Error: /te/customer/9857/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 44, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 1945, in to_representation
+    return self.model_field.value_to_string(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 326, in value_to_string
+    post_dict = self._obj_thru_fields('value_to_string', container_obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 164, in _obj_thru_fields
+    processed_value[field.attname] = getattr(field, func_name)(obj, *other_args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\postgres\fields\array.py", line 127, in value_to_string
+    for val in vals:
+TypeError: 'NoneType' object is not iterable
+"GET /te/customer/9857/templates/ HTTP/1.1" 500 142732
+Internal Server Error: /te/customer/9857/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 49, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 1945, in to_representation
+    return self.model_field.value_to_string(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 326, in value_to_string
+    post_dict = self._obj_thru_fields('value_to_string', container_obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 164, in _obj_thru_fields
+    processed_value[field.attname] = getattr(field, func_name)(obj, *other_args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\postgres\fields\array.py", line 127, in value_to_string
+    for val in vals:
+TypeError: 'NoneType' object is not iterable
+"GET /te/customer/9857/templates/ HTTP/1.1" 500 143286
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 25, in get
+    data=client.te.restApi_templates.find({myquery}).sort("id")
+TypeError: unhashable type: 'dict'
+"GET /te/customer/999/templates/ HTTP/1.1" 500 98765
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 25, in get
+    data=client.te.restApi_templates.find({myquery}).sort("id")
+TypeError: unhashable type: 'dict'
+"GET /te/customer/999/templates/ HTTP/1.1" 500 98902
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 26, in get
+    data=client.te.restApi_templates.find({myquery}).sort("id")
+TypeError: unhashable type: 'dict'
+"GET /te/customer/999/templates/ HTTP/1.1" 500 98922
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 32, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 529, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 1942, in to_representation
+    value = self.model_field.value_from_object(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 331, in value_from_object
+    value = getattr(obj, self.attname)
+AttributeError: 'dict' object has no attribute 'fields'
+"GET /te/customer/999/templates/ HTTP/1.1" 500 145574
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 33, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `type` on serializer `TemplateSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'type'.
+"GET /te/customer/999/templates/ HTTP/1.1" 500 152701
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 35, in get
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `type` on serializer `TemplateSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'type'.
+"GET /te/customer/999/templates/ HTTP/1.1" 500 156025
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 32, in get
+    print(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `type` on serializer `TemplateSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'type'.
+"GET /te/customer/999/templates/ HTTP/1.1" 500 156108
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 35, in get
+    return Response(serializer.data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `type` on serializer `TemplateSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'type'.
+"GET /te/customer/999/templates/ HTTP/1.1" 500 156054
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+"GET /te/customer/999/templates/ HTTP/1.1" 500 89875
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 31, in get
+    return JsonResponse(i)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\http\response.py", line 561, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\serializers\json.py", line 104, in default
+    return super().default(o)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+"GET /te/customer/999/templates/ HTTP/1.1" 500 19099
+Internal Server Error: /admin/restApi/templates/add/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 992, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 971, in render_value_in_context
+    value = str(value)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 562, in __str__
+    model_form = self.field.model_form_class(instance=instance, **self.field.model_form_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 293, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 93, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 199, in value_from_object
+    container_obj = self.model_container(**value)
+TypeError: ModelBase object argument after ** must be a mapping, not list
+"POST /admin/restApi/templates/add/ HTTP/1.1" 500 419385
+Internal Server Error: /admin/restApi/templates/add/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 992, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 971, in render_value_in_context
+    value = str(value)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 562, in __str__
+    model_form = self.field.model_form_class(instance=instance, **self.field.model_form_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 293, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\forms\models.py", line 93, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\djongo\models\fields.py", line 199, in value_from_object
+    container_obj = self.model_container(**value)
+TypeError: ModelBase object argument after ** must be a mapping, not list
+"POST /admin/restApi/templates/add/ HTTP/1.1" 500 417876
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 31, in get
+    return JsonResponse(i)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\http\response.py", line 561, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\serializers\json.py", line 104, in default
+    return super().default(o)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+"GET /te/customer/999/templates/ HTTP/1.1" 500 19099
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 32, in get
+    return HttpResponse(json.dumps(i), content_type="application/json")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+"GET /te/customer/999/templates/ HTTP/1.1" 500 18809
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'str'>`
+"GET /te/customer/999/templates/ HTTP/1.1" 500 89285
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 33, in get
+    json.encode(i, cls=JSONEncoder)
+AttributeError: module 'json' has no attribute 'encode'
+"GET /te/customer/999/templates/ HTTP/1.1" 500 18157
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'str'>`
+"GET /te/customer/999/templates/ HTTP/1.1" 500 89252
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'str'>`
+"GET /te/customer/999/templates/ HTTP/1.1" 500 89285
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 35, in get
+    return JsonResponse(res)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\http\response.py", line 554, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+"GET /te/customer/999/templates/ HTTP/1.1" 500 18381
+Internal Server Error: /te/customer/9909/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 30, in get
+    print(len(data))
+TypeError: object of type 'Cursor' has no len()
+"GET /te/customer/9909/templates/ HTTP/1.1" 500 18130
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 30, in get
+    print(len(data))
+TypeError: object of type 'Cursor' has no len()
+"GET /te/customer/999/templates/ HTTP/1.1" 500 18126
+Internal Server Error: /te/customer/999/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 56, in post
+    data=client.te.restApi_templates.find({myquery}).sort("id",-1)
+TypeError: unhashable type: 'dict'
+"POST /te/customer/999/templates/ HTTP/1.1" 500 18149
+Not Found: /te/customer/9po9/templates/
+"GET /te/customer/9po9/templates/ HTTP/1.1" 404 2176
+Not Found: /te/customer/9po9/templates/
+"GET /te/customer/9po9/templates/ HTTP/1.1" 404 2176
+Not Found: /te/customer/99/templates/
+"GET /te/customer/99/templates/ HTTP/1.1" 404 2166
+Not Found: /te/customer/999/templates/
+"GET /te/customer/999/templates/ HTTP/1.1" 404 2169
+Not Found: /te/customer/9mk99/templates/
+"GET /te/customer/9mk99/templates/ HTTP/1.1" 404 2179
+Not Found: /te/customer/99l9/templates/
+"POST /te/customer/99l9/templates/ HTTP/1.1" 404 2177
+Not Found: /te/customer/9,l99/templates/
+"GET /te/customer/9,l99/templates/ HTTP/1.1" 404 2179
+Internal Server Error: /te/customer/99njh99/templates/
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\User\Desktop\pythontask\companyTask\restApi\views.py", line 26, in get
+    s=int(customer_id)
+ValueError: invalid literal for int() with base 10: '99njh99'
+"GET /te/customer/99njh99/templates/ HTTP/1.1" 500 17940
